@@ -1,5 +1,5 @@
 # Crypto-Exchange-Risk-Analysis-BTC-ETH-
-Overview
+overview
 This project implements an exchange-style crypto risk analysis pipeline using recent market data to evaluate downside risk, tail behavior, and model performance under high-volatility regimes.
 Using BTC and ETH daily data from a centralized exchange, the project focuses on rolling Value-at-Risk (VaR) backtesting, stress-window analysis, and portfolio drawdowns, aiming to assess whether traditional risk metrics systematically underestimate tail risk in crypto markets.
 
@@ -9,7 +9,7 @@ Source: OKX public OHLCV API
 Assets: BTC, ETH
 Frequency: Daily
 Sample Period: April 2025 – Present
-The analysis intentionally focuses on recent market regimes, reflecting real-world exchange risk monitoring rather than long-horizon historical crises.
+
 
 Methodology
 1. Return & Volatility Analysis
@@ -29,6 +29,7 @@ Analyzed worst-day loss, cumulative loss, and maximum drawdown within a stress w
 Constructed a BTC/ETH 60/40 portfolio
 Evaluated drawdowns and VaR breaches under stress
 Analyzed correlation-driven loss amplification
+
 
 Key Findings
 In a recent stress window (2026-01-25 to 2026-02-14), a BTC/ETH 60/40 portfolio experienced a worst-day loss of 8.94% and a maximum drawdown of 28.80%, highlighting severe downside concentration during market stress.
